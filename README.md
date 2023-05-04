@@ -53,7 +53,7 @@ In order to better understand the local cache we will now log back into DC-1 and
   ![image](https://user-images.githubusercontent.com/111653930/236304946-e719323a-90cc-4f42-9975-75d293ef1614.png)
   
 <p>  
-From Client-1 we will once again ping "mainframe". Even though we changed mainframes IP to 8.8.8.8 and is still pinging 10.0.0.4. The reason for this is because this information still exists in the local DNS cache on Client-1. This is where the command flushdns comes into play. 
+From Client-1 we will once again ping "mainframe". Even though we changed mainframes IP to 8.8.8.8 it is still pinging 10.0.0.4. The reason for this is because this information still exists in the local DNS cache on Client-1. This is where the command flushdns comes into play. 
  </p>
 
   ![image](https://user-images.githubusercontent.com/111653930/236305024-ef9f486c-607c-4d4f-a4f4-3ecd014020bb.png)
