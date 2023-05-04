@@ -44,4 +44,5 @@ Now to test our new A-Record we will log back into Client-1 and ping "mainframe"
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236301983-e3609952-f2a1-48a8-925d-3163ccde127d.png)
+![image](https://user-images.githubusercontent.com/111653930/236302907-22d5876f-e623-4c82-9afb-8a5c8ff4ef62.png)
 
