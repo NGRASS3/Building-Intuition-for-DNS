@@ -24,6 +24,8 @@ In this lab we will be experimenting with DNS. This lab will help us have a bett
 <p>
 </p>
 <p>
-First we will be inspecting DNS A-Records on the server A records are hostname to IP address mappings. We are going to create an A record on DC-1 for "mainframe" and have it point to DC-1's private IP address. If we try to ping mainframe without setting the DNS record it will not work. When we ping "mainframe" Client-1 is checking the DNS cache, checking its local host file and checking the DNS server. To create an A-record go to the AD->Tools->DNS->DC-1->Forward lookup zones->mydomain.com-> right click and create a new A record, title it mainframe. An A record is hostname to ip address mapping. If we go back to the client machine and ping mainframe we will get a reply. 
+To begin we will login to both our DC-1 and Client-1 VM's as admins. From Client-1 we will ping "mainframe". The ping request will not be completed because this record does not exist anywhere. When we send the ping request a series of events takes place. Client-1 will check its own cache to see if it knows mainframe (no result), then it will check its local host file @ c:\windows\system32\drivers\etc\hosts (no result) and finally check the DNS (no result).
 </p>
-<br />
+
+![image](https://user-images.githubusercontent.com/111653930/236297372-c6d7a8cf-7548-4c1d-846f-f4eaa966ddbf.png)
+
