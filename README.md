@@ -47,10 +47,15 @@ Now to test our new A-Record we will log back into Client-1 and ping "mainframe"
 ![image](https://user-images.githubusercontent.com/111653930/236302907-22d5876f-e623-4c82-9afb-8a5c8ff4ef62.png)
 
 <p>
-In order to better understand the locacl cache we will now log back into DC-1 and change the "mainframe" records IP to 8.8.8.8. Hit apply changes and log back into Client-1. From Client-1 we will once again ping "mainframe". Even though we changed mainframes IP to 8.8.8.8 and is still pinging 10.0.0.4. The reason for this is because this information still exists in the local DNS cache on Client-1. This is where the command flushdns comes into play. 
-  </p>
+In order to better understand the locacl cache we will now log back into DC-1 and change the "mainframe" records IP to 8.8.8.8. Hit apply changes and log back into Client-1. 
+ </p>
   
   ![image](https://user-images.githubusercontent.com/111653930/236304946-e719323a-90cc-4f42-9975-75d293ef1614.png)
+  
+<p>  
+From Client-1 we will once again ping "mainframe". Even though we changed mainframes IP to 8.8.8.8 and is still pinging 10.0.0.4. The reason for this is because this information still exists in the local DNS cache on Client-1. This is where the command flushdns comes into play. 
+ </p>
+
   ![image](https://user-images.githubusercontent.com/111653930/236305024-ef9f486c-607c-4d4f-a4f4-3ecd014020bb.png)
 
 
