@@ -70,4 +70,11 @@ Now that we have a better understanding of A-Records and local DNS Cache we can 
  </p>
  
  ![image](https://user-images.githubusercontent.com/111653930/236309948-26cfda71-e840-43cd-9b7b-2b158a4a2ab0.png)
+ 
+ <p>  
+Back on DC-1 similarly to how we made an A-Record we will now create a new CNAME with the alias "search" and FQDN "www.google.com".
+ </p>
+ 
+ ![image](https://user-images.githubusercontent.com/111653930/236310475-a86ac32c-87c6-42c8-a0f0-d271b43844a7.png)
+
 
