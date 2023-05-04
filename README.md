@@ -40,7 +40,7 @@ Next we will login to DC-1 and create an A-Record for "mainframe". Go to Start -
 ![image](https://user-images.githubusercontent.com/111653930/236301566-852bebfe-78b2-49bd-9a39-d464c8071263.png)
 
 <p>
-Now to test our new A-Record we will log back into Client-1 and ping "mainframe" from the command line.  
+Now to test our new A-Record we will log back into Client-1 and ping "mainframe" from the command line and its successful. 
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236301983-e3609952-f2a1-48a8-925d-3163ccde127d.png)
