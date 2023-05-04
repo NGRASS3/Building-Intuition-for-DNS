@@ -59,3 +59,10 @@ From Client-1 we will once again ping "mainframe". Even though we changed mainfr
   ![image](https://user-images.githubusercontent.com/111653930/236305024-ef9f486c-607c-4d4f-a4f4-3ecd014020bb.png)
 
 
+<p>  
+From our command line as an admin we can run ipconfig /flushdns. This will clear our local cache and force Client-1 to ask the DNS server for the latest record. 
+ </p>
+
+  ![image](https://user-images.githubusercontent.com/111653930/236305024-ef9f486c-607c-4d4f-a4f4-3ecd014020bb.png)
+
+
