@@ -65,4 +65,9 @@ From our command line as an admin we can run ipconfig /flushdns. This will clear
 
 ![image](https://user-images.githubusercontent.com/111653930/236308465-9f42e236-f1f0-4e52-b451-5ddb32d1c15e.png)
 
+<p>  
+Now that we have a better understanding of A-Records and local DNS Cache we can also play around with CNAME records. From Client-1 we can try to ping the term "search". The ping will return no result. 
+ </p>
+ 
+ ![image](https://user-images.githubusercontent.com/111653930/236309948-26cfda71-e840-43cd-9b7b-2b158a4a2ab0.png)
 
