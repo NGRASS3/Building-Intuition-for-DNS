@@ -60,9 +60,9 @@ From Client-1 we will once again ping "mainframe". Even though we changed mainfr
 
 
 <p>  
-From our command line as an admin we can run ipconfig /flushdns. This will clear our local cache and force Client-1 to ask the DNS server for the latest record. 
+From our command line as an admin we can run ipconfig /flushdns. This will clear our local cache and force Client-1 to ask the DNS server for the latest record. From here we can once again ping "mainframe" and see how the IP has been updated.
  </p>
 
-  ![image](https://user-images.githubusercontent.com/111653930/236305024-ef9f486c-607c-4d4f-a4f4-3ecd014020bb.png)
+![image](https://user-images.githubusercontent.com/111653930/236308465-9f42e236-f1f0-4e52-b451-5ddb32d1c15e.png)
 
 
