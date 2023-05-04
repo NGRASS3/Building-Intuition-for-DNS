@@ -33,3 +33,8 @@ To begin we will login to both our DC-1 and Client-1 VM's as admins. From Client
 
 ![image](https://user-images.githubusercontent.com/111653930/236297372-c6d7a8cf-7548-4c1d-846f-f4eaa966ddbf.png)
 
+<p>
+Next we will login to DC-1 and create an A-Record for "mainframe". Go to Start -> Server Manager -> Tools -> DNS -> DC-1 -> Forward Lookup Zone (hostname to IP) -> mydomain -> right click New Host. We will title this new host as "mainframe" and use DC-1s IP. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236301566-852bebfe-78b2-49bd-9a39-d464c8071263.png)
