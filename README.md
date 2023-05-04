@@ -47,7 +47,7 @@ Now to test our new A-Record we will log back into Client-1 and ping "mainframe"
 ![image](https://user-images.githubusercontent.com/111653930/236302907-22d5876f-e623-4c82-9afb-8a5c8ff4ef62.png)
 
 <p>
-In order to better understand the locacl cache we will now log back into DC-1 and change the "mainframe" records IP to 8.8.8.8. Hit apply changes and log back into Client-1. 
+In order to better understand the local cache we will now log back into DC-1 and change the "mainframe" records IP to 8.8.8.8. Hit apply changes and log back into Client-1. 
  </p>
   
   ![image](https://user-images.githubusercontent.com/111653930/236304946-e719323a-90cc-4f42-9975-75d293ef1614.png)
