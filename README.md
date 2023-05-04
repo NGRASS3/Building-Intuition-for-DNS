@@ -76,5 +76,7 @@ Back on DC-1 similarly to how we made an A-Record we will now create a new CNAME
  </p>
  
  ![image](https://user-images.githubusercontent.com/111653930/236310475-a86ac32c-87c6-42c8-a0f0-d271b43844a7.png)
+ ![image](https://user-images.githubusercontent.com/111653930/236311019-32312d7d-3761-4232-9f77-ce4f9091d6d1.png)
+
 
 
